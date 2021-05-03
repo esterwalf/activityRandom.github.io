@@ -44,7 +44,7 @@ const specialEvent=[{
 },
 {
     urls:["https://www.ciww.com/activities/air-trail/"],
-    title:"High ropes"
+    title:"a High ropes course"
 },
 {
     urls:["https://www.goodshedsbarry.co.uk/your-goodsheds-visit/","https://www.revoluciondecuba.com/bar/cardiff/","https://theclinkcharity.org/", "https://www.coyoteuglysaloon.com/cardiff/", "https://www.thecoconut-tree.com/cardiff"],
@@ -52,15 +52,60 @@ const specialEvent=[{
 },
 {
     urls:["https://infinitycardiff.co.uk/","https://www.buzztrampolineparks.co.uk/buzz-cardiff"],
-    title:"Trampoline park"
+    title:"a Trampoline park"
 },
 {
     urls:["https://www.escaperoomscardiff.co.uk/","https://citymazes.com/location-cardiff","https://www.adventurerooms.wales/cardiff/"],
-    title:"Escape room"
+    title:"an Escape room"
 },
 {
     urls:["https://www.wmc.org.uk/", "https://motorpointarenacardiff.co.uk/","https://www.newtheatrecardiff.co.uk/","https://www.stdavidshallcardiff.co.uk/"],
-    title:"Theatre"
+    title:"a Theatre"
+}]
+
+const giveMeAHobby=[{
+    urls:["https://origami.me/beginners-guide/"],
+    title:"Origami"
+},
+{
+    urls:["https://www.positivelysplendid.com/easy-sewing-projects-for-beginners/"],
+    title:"Sewing"
+},
+{
+    urls:["https://www.games-workshop.com/en-GB/Warhammer-40-000"],
+    title:"Warhammer"
+},
+{
+    urls:["https://www.zumba.com/ja-JP/party?day_friday=1&day_monday=1&day_saturday=1&day_sunday=1&day_thursday=1&day_tuesday=1&day_wednesday=1&end_date=2021-05-09&hide_unverified=1&masks_required=0&outdoor_only=0&search=CARDIFF%2C+WHITCHURCH%2C+GB&show_non_membership_only=0&social_distancing=0&start_date=2021-05-03&temperature_checks=0&lat=51.512697&lng=-3.218135"],
+    title:"Zumba"
+},
+{
+    urls:["https://www.lifehack.org/articles/communication/30-books-that-everyone-should-read-least-once-their-lives.html"],
+    title:"Reading"
+},
+{
+    urls:["https://www.purewow.com/food/fun-things-to-bake"],
+    title:"Baking"
+},
+{
+    urls:["https://gamerules.com/card-games-that-you-can-play-alone/"],
+    title:"solo card games"
+},
+{
+    urls:["https://www.insider.com/how-to-take-care-of-plants-2018-7"],
+    title:"Buy and take care of a new plant"
+},
+{
+    urls:["https://www.instructables.com/How-To-Play-The-Harmonica/"],
+    title:"Learn a new instrument"
+},
+{
+    urls:["https://www.codecademy.com/learn/paths/code-foundations?g_network=g&g_device=c&g_adid=435796417100&g_campaign=UK+Career+Path%3A+Pro+-+Exact&g_keyword=basic%20coding&g_acctid=243-039-7011&g_adtype=search&g_adgroupid=102650134473&g_keywordid=kwd-368104080477&g_campaignid=10074198917&utm_id=t_kwd-368104080477:ag_102650134473:cp_10074198917:n_g:d_c&utm_term=basic%20coding&utm_campaign=UK%20Career%20Path%3A%20Pro%20-%20Exact&utm_source=google&utm_medium=paid-search&utm_content=435796417100&hsa_acc=2430397011&hsa_cam=10074198917&hsa_grp=102650134473&hsa_ad=435796417100&hsa_src=g&hsa_tgt=kwd-368104080477&hsa_kw=basic%20coding&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPFddw37PkE0C-TP7wdMzUydVAlFmuBxeFi_8rgSEk2KAmie5ILV_E4aAq8YEALw_wcB"],
+    title:"Learn how to code and make a new project"
+},
+{
+    urls:["https://drawpaintacademy.com/painting-for-beginners/"],
+    title:"Painting/drawing"
 }]
 
 function openTab(e,tabName){
@@ -99,6 +144,13 @@ function randomIAmBored(e){
     const listText = createList(iAmBored[randomNumber]);
     document.getElementById("boredList").innerHTML = "<ul>" + listText + "</ul>";
 }
+function randomHobby(e){
+    const numberOfHobbies = giveMeAHobby.length -1;
+    const randomNumber = Math.floor(Math.random() * numberOfHobbies)+1;
+    document.getElementById("hobbyTitle").innerText = giveMeAHobby[randomNumber].title;
+    const listText= createList(giveMeAHobby[randomNumber]);
+        document.getElementById("hobbyList").innerHTML = "<ul>" + listText + "</ul>";
+}
 
 function createList(list){
     let htmlList= "";
@@ -108,6 +160,3 @@ function createList(list){
     return htmlList
 }
 
-//function randomHobby(e){
-
-//}
