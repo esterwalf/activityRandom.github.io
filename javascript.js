@@ -48,7 +48,7 @@ const specialEvent=[{
 },
 {
     urls:["https://www.goodshedsbarry.co.uk/your-goodsheds-visit/","https://www.revoluciondecuba.com/bar/cardiff/","https://theclinkcharity.org/", "https://www.coyoteuglysaloon.com/cardiff/", "https://www.thecoconut-tree.com/cardiff"],
-    title:"Eat in/out"
+    title:"a Restaurant"
 },
 {
     urls:["https://infinitycardiff.co.uk/","https://www.buzztrampolineparks.co.uk/buzz-cardiff"],
