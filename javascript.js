@@ -93,15 +93,15 @@ const giveMeAHobby=[{
 },
 {
     urls:["https://www.insider.com/how-to-take-care-of-plants-2018-7"],
-    title:"Buy and take care of a new plant"
+    title:"Taking care of a new plant"
 },
 {
     urls:["https://www.instructables.com/How-To-Play-The-Harmonica/"],
-    title:"Learn a new instrument"
+    title:"Learning a new instrument"
 },
 {
     urls:["https://www.codecademy.com/learn/paths/code-foundations?g_network=g&g_device=c&g_adid=435796417100&g_campaign=UK+Career+Path%3A+Pro+-+Exact&g_keyword=basic%20coding&g_acctid=243-039-7011&g_adtype=search&g_adgroupid=102650134473&g_keywordid=kwd-368104080477&g_campaignid=10074198917&utm_id=t_kwd-368104080477:ag_102650134473:cp_10074198917:n_g:d_c&utm_term=basic%20coding&utm_campaign=UK%20Career%20Path%3A%20Pro%20-%20Exact&utm_source=google&utm_medium=paid-search&utm_content=435796417100&hsa_acc=2430397011&hsa_cam=10074198917&hsa_grp=102650134473&hsa_ad=435796417100&hsa_src=g&hsa_tgt=kwd-368104080477&hsa_kw=basic%20coding&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPFddw37PkE0C-TP7wdMzUydVAlFmuBxeFi_8rgSEk2KAmie5ILV_E4aAq8YEALw_wcB"],
-    title:"Learn how to code and make a new project"
+    title:"Learning how to code"
 },
 {
     urls:["https://drawpaintacademy.com/painting-for-beginners/"],
