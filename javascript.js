@@ -24,6 +24,18 @@ const iAmBored=[{
 {
     urls:["https://www.pitchup.com/","https://www.campsites.co.uk/","https://coolcamping.com/"],
 title:"Camping"
+},
+{
+    urls:["https://www.leisurecentre.com/cardiff-international-pool-and-gym"],
+    title:"Swimming"
+},
+{
+    urls:["https://www.sport.wales/our-facilities/sport-wales-national-centre-cardiff/"],
+    title:"Badminton"
+},
+{
+    urls:["https://www.violaarena.com/ice-skating/information/times-prices/"],
+    title: "Ice-skating"
 }]
 
 const specialEvent=[{
@@ -95,3 +107,7 @@ function createList(list){
     }
     return htmlList
 }
+
+//function randomHobby(e){
+
+//}
