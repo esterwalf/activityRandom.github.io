@@ -20,6 +20,10 @@ const iAmBored=[{
 {
     urls:["https://adventuregolf.com/","https://teerexgolfcardiff.com/"],
     title:"Golf"
+},
+{
+    urls:["https://www.pitchup.com/","https://www.campsites.co.uk/","https://coolcamping.com/"],
+title:"Camping"
 }]
 
 const specialEvent=[{
