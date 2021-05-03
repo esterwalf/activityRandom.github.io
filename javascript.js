@@ -8,7 +8,7 @@ const iAmBored=[{
     
 },
 {
-    urls:["https://www.nationaltrust.org.uk/dyffryn-gardens","https://www.valeofglamorgan.gov.uk/en/enjoying/Coast-and-Countryside/cosmeston-lakes-country-park/Cosmeston-Lakes-Country-Park.aspx"
+    urls:["https://www.nationaltrust.org.uk/dyffryn-gardens","https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/cardiff-bay-trail/","https://www.valeofglamorgan.gov.uk/en/enjoying/Coast-and-Countryside/cosmeston-lakes-country-park/Cosmeston-Lakes-Country-Park.aspx"
 
     ],
     title:"Walks"
