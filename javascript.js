@@ -39,7 +39,7 @@ const specialEvent=[{
     title:"Trampoline park"
 },
 {
-    urls:["https://www.escaperoomscardiff.co.uk/","https://citymazes.com/location-cardiff","https://www.adventurerooms.wales/cardiff/","https://www.escapereality.com/escape-rooms-uk/cardiffcity/"],
+    urls:["https://www.escaperoomscardiff.co.uk/","https://citymazes.com/location-cardiff","https://www.adventurerooms.wales/cardiff/"],
     title:"Escape room"
 },
 {
