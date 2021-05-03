@@ -32,10 +32,8 @@
   border: 1px solid #ccc;
   border-top: none;
 }
-.h2{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #ccc;
-}
 .body{
   color: darkslategray;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #ccc;
 }
