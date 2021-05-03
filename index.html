@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="./style.css">
+    
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Special Event')">Special Event</button>
+            <button class="tablinks" onclick="openTab(event, 'I am Bored')">I'm Bored</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="Special Event" class="tabcontent">
+            <h1>Special Event</h1>
+            <h2 id="eventTitle"></h2>
+            <p id="eventList">
+            </p>
+            <button onclick="randomSpecialEvent(event)">Randomiser</button>
+          </div>
+          
+          <div id="I am Bored" class="tabcontent">
+            <h1>I'm Bored</h1>
+            <h2 id="boredTitle"></h2>
+            <p  id="boredList"></p>
+            <button onclick="randomIAmBored(event)">Randomiser</button>
+          </div>
+          
+        <script src="./javascript.js"></script>
+    </body>
+</html>
