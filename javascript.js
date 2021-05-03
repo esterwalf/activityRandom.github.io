@@ -4,22 +4,22 @@ const iAmBored=[{
         "https://www.chanceandcounters.com/cardiff/",
         "https://www.firestormgames.co.uk/"
       ],
-    title:"Board Games"
+    title:"to a Board Games cafe"
     
 },
 {
     urls:["https://www.nationaltrust.org.uk/dyffryn-gardens","https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/cardiff-bay-trail/","https://www.valeofglamorgan.gov.uk/en/enjoying/Coast-and-Countryside/cosmeston-lakes-country-park/Cosmeston-Lakes-Country-Park.aspx"
 
     ],
-    title:"Walks"
+    title:"on Walks"
 },
 {
     urls:["https://www.myvue.com/cinema/cardiff/whats-on", "https://www.everymancinema.com/cardiff", "https://cardiff.premierecinemas.co.uk/PremiereCinemasCardiff.dll/Home","https://www.streetfoodcinema.co.uk/"],
-    title:"Cinema"
+    title:"to the Cinema"
 },
 {
     urls:["https://adventuregolf.com/","https://teerexgolfcardiff.com/"],
-    title:"Golf"
+    title:"to Adventure Golf"
 },
 {
     urls:["https://www.pitchup.com/","https://www.campsites.co.uk/","https://coolcamping.com/"],
@@ -31,7 +31,7 @@ title:"Camping"
 },
 {
     urls:["https://www.sport.wales/our-facilities/sport-wales-national-centre-cardiff/"],
-    title:"Badminton"
+    title:"to Badminton"
 },
 {
     urls:["https://www.violaarena.com/ice-skating/information/times-prices/"],
