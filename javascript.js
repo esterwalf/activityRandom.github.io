@@ -74,7 +74,7 @@ const specialEvent=[{
 },
 {
     urls:["https://ninjawarrioruk.co.uk/cardiff/"],
-    title:"Assault Course"
+    title:"an Assault Course"
 },
 {
     urls:["https://www.oakwoodthemepark.co.uk/"],
