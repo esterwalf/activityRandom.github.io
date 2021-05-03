@@ -78,7 +78,7 @@ const specialEvent=[{
 },
 {
     urls:["https://www.oakwoodthemepark.co.uk/"],
-    title:"Oakwood"
+    title:"A theme park"
 }]
 
 const giveMeAHobby=[{
