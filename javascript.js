@@ -8,7 +8,7 @@ const iAmBored=[{
     
 },
 {
-    urls:["https://www.nationaltrust.org.uk/dyffryn-gardens","https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/cardiff-bay-trail/","https://www.valeofglamorgan.gov.uk/en/enjoying/Coast-and-Countryside/cosmeston-lakes-country-park/Cosmeston-Lakes-Country-Park.aspx"
+    urls:["https://www.nationaltrust.org.uk/dyffryn-gardens","https://www.outdoorcardiff.com/parks/roath-park/","https://www.tripadvisor.co.uk/Attraction_Review-g186460-d590524-Reviews-Parc_Cefn_Onn-Cardiff_South_Wales_Wales.html","https://forestfarm.org.uk/" ,"https://www.outdoorcardiff.com/parks/victoria-park/","https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/cardiff-bay-trail/","https://www.valeofglamorgan.gov.uk/en/enjoying/Coast-and-Countryside/cosmeston-lakes-country-park/Cosmeston-Lakes-Country-Park.aspx"
 
     ],
     title:"on Walks"
@@ -36,6 +36,10 @@ title:"Camping"
 {
     urls:["https://www.violaarena.com/ice-skating/information/times-prices/"],
     title: "Ice-skating"
+},
+{
+    urls:["https://www.goodshedsbarry.co.uk/your-goodsheds-visit/","https://www.revoluciondecuba.com/bar/cardiff/","https://theclinkcharity.org/", "https://www.coyoteuglysaloon.com/cardiff/", "https://www.thecoconut-tree.com/cardiff"],
+    title:"a Restaurant"
 }]
 
 const specialEvent=[{
@@ -46,10 +50,7 @@ const specialEvent=[{
     urls:["https://www.ciww.com/activities/air-trail/"],
     title:"a High ropes course"
 },
-{
-    urls:["https://www.goodshedsbarry.co.uk/your-goodsheds-visit/","https://www.revoluciondecuba.com/bar/cardiff/","https://theclinkcharity.org/", "https://www.coyoteuglysaloon.com/cardiff/", "https://www.thecoconut-tree.com/cardiff"],
-    title:"a Restaurant"
-},
+
 {
     urls:["https://infinitycardiff.co.uk/","https://www.buzztrampolineparks.co.uk/buzz-cardiff"],
     title:"a Trampoline park"
@@ -59,8 +60,25 @@ const specialEvent=[{
     title:"an Escape room"
 },
 {
+    urls:["http://www.adventurewales.co.uk/archery.htm","http://www.walesactivitybreaks.co.uk/couples.htm"],
+    title:"Archery, assault course, axe throwing etc."
+},
+
+{
     urls:["https://www.wmc.org.uk/", "https://motorpointarenacardiff.co.uk/","https://www.newtheatrecardiff.co.uk/","https://www.stdavidshallcardiff.co.uk/"],
     title:"a Theatre"
+},
+{
+    urls:["https://www.aquaparkgroup.co.uk/cardiff/"],
+    title:"a Water assault course"
+},
+{
+    urls:["https://ninjawarrioruk.co.uk/cardiff/"],
+    title:"Assault Course"
+},
+{
+    urls:["https://www.oakwoodthemepark.co.uk/"],
+    title:"Oakwood"
 }]
 
 const giveMeAHobby=[{
