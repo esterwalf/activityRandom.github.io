@@ -1,9 +1,17 @@
 const iAmBored=[{
     
-    urls:[
-        "https://www.chanceandcounters.com/cardiff/",
-        "https://www.firestormgames.co.uk/"
-      ],
+    // urls:[
+    //     "https://www.chanceandcounters.com/cardiff/",
+    //     "https://www.firestormgames.co.uk/"
+    //   ],
+    // title:"to a Board Games cafe"
+    places:[{
+        URL:"https://www.chanceandcounters.com/cardiff/",
+        placeName:"Change and Counters"
+    },{
+        URL:"https://www.firestormgames.co.uk/",
+        placeName:"Fire Storm Games"
+    }],
     title:"to a Board Games cafe"
     
 },
@@ -79,6 +87,14 @@ const specialEvent=[{
 {
     urls:["https://www.oakwoodthemepark.co.uk/"],
     title:"A theme park"
+},
+{
+    urls:["https://www.hollywoodbowl.co.uk/cardiff","https://www.playatpins.com/?","https://www.superbowluk.co.uk/cardiff"],
+    title:"Bowling"
+},
+{
+    urls:["https://www.superbowluk.co.uk/cardiff/laser-quest/"],
+    title:"Laser Quest"
 }]
 
 const giveMeAHobby=[{
@@ -170,10 +186,18 @@ function randomHobby(e){
         document.getElementById("hobbyList").innerHTML = "<ul>" + listText + "</ul>";
 }
 
+// function createList(list){
+//     let htmlList= "";
+//     for(let i=0; i < list.urls.length; i++){
+//         htmlList += "<li>"+ "<a href=" + list.urls[i]+ ">" + list.urls[i] + "</li>";
+//     }
+//     return htmlList
+// }
+
 function createList(list){
     let htmlList= "";
     for(let i=0; i < list.urls.length; i++){
-        htmlList += "<li>"+ "<a href=" + list.urls[i]+ ">" + list.urls[i]+ "</li>";
+        htmlList += "<li>"+ "<a href=" + list.places[i].url+ ">" + list.places[i].placeName + "</li>";
     }
     return htmlList
 }
