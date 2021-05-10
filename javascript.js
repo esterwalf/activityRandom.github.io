@@ -89,13 +89,14 @@ const specialEvent=[{
     title:"A theme park"
 },
 {
+    urls:["https://swkc.co.uk/","https://www.team-sport.co.uk/cardiff/?"],
+    title:"Go-karting"
+},
+{
     urls:["https://www.hollywoodbowl.co.uk/cardiff","https://www.playatpins.com/?","https://www.superbowluk.co.uk/cardiff"],
     title:"Bowling"
 },
-{
-    urls:["https://www.superbowluk.co.uk/cardiff/laser-quest/"],
-    title:"Laser Quest"
-}]
+]
 
 const giveMeAHobby=[{
     urls:["https://origami.me/beginners-guide/"],
